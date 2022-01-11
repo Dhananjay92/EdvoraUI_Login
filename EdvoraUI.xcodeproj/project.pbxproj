@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED3780EB278D0B5F00F8A348 /* EmailTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3780EA278D0B5F00F8A348 /* EmailTextFieldView.swift */; };
+		ED3780ED278D140F00F8A348 /* PasswordTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3780EC278D140F00F8A348 /* PasswordTextFieldView.swift */; };
+		ED3780EF278D157E00F8A348 /* UsernameTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3780EE278D157E00F8A348 /* UsernameTextFieldView.swift */; };
+		ED3780F1278D189F00F8A348 /* ForgotPasswordLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3780F0278D189F00F8A348 /* ForgotPasswordLink.swift */; };
+		ED3780F3278D198600F8A348 /* LoginButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3780F2278D198600F8A348 /* LoginButtonView.swift */; };
+		ED3780F5278D1B0100F8A348 /* SignUpButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3780F4278D1B0100F8A348 /* SignUpButtonView.swift */; };
 		EDA51E2C278D07BB00AE7128 /* EdvoraUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA51E2B278D07BB00AE7128 /* EdvoraUIApp.swift */; };
-		EDA51E2E278D07BB00AE7128 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA51E2D278D07BB00AE7128 /* ContentView.swift */; };
 		EDA51E30278D07BC00AE7128 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA51E2F278D07BC00AE7128 /* Assets.xcassets */; };
 		EDA51E33278D07BC00AE7128 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA51E32278D07BC00AE7128 /* Preview Assets.xcassets */; };
+		EDA51E3C278D07F000AE7128 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA51E3B278D07F000AE7128 /* LoginView.swift */; };
+		EDA51E40278D093500AE7128 /* LogoImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA51E3F278D093500AE7128 /* LogoImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED3780EA278D0B5F00F8A348 /* EmailTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextFieldView.swift; sourceTree = "<group>"; };
+		ED3780EC278D140F00F8A348 /* PasswordTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextFieldView.swift; sourceTree = "<group>"; };
+		ED3780EE278D157E00F8A348 /* UsernameTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameTextFieldView.swift; sourceTree = "<group>"; };
+		ED3780F0278D189F00F8A348 /* ForgotPasswordLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordLink.swift; sourceTree = "<group>"; };
+		ED3780F2278D198600F8A348 /* LoginButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonView.swift; sourceTree = "<group>"; };
+		ED3780F4278D1B0100F8A348 /* SignUpButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpButtonView.swift; sourceTree = "<group>"; };
 		EDA51E28278D07BB00AE7128 /* EdvoraUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EdvoraUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA51E2B278D07BB00AE7128 /* EdvoraUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdvoraUIApp.swift; sourceTree = "<group>"; };
-		EDA51E2D278D07BB00AE7128 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EDA51E2F278D07BC00AE7128 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDA51E32278D07BC00AE7128 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDA51E3B278D07F000AE7128 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EDA51E3F278D093500AE7128 /* LogoImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +65,8 @@
 		EDA51E2A278D07BB00AE7128 /* EdvoraUI */ = {
 			isa = PBXGroup;
 			children = (
-				EDA51E2B278D07BB00AE7128 /* EdvoraUIApp.swift */,
-				EDA51E2D278D07BB00AE7128 /* ContentView.swift */,
+				EDA51E3A278D07CF00AE7128 /* System */,
+				EDA51E39278D07C500AE7128 /* Views */,
 				EDA51E2F278D07BC00AE7128 /* Assets.xcassets */,
 				EDA51E31278D07BC00AE7128 /* Preview Content */,
 			);
@@ -65,6 +79,45 @@
 				EDA51E32278D07BC00AE7128 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDA51E39278D07C500AE7128 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EDA51E3D278D091600AE7128 /* Login Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EDA51E3A278D07CF00AE7128 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				EDA51E2B278D07BB00AE7128 /* EdvoraUIApp.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		EDA51E3D278D091600AE7128 /* Login Views */ = {
+			isa = PBXGroup;
+			children = (
+				EDA51E3E278D092400AE7128 /* Subviews */,
+				EDA51E3B278D07F000AE7128 /* LoginView.swift */,
+			);
+			path = "Login Views";
+			sourceTree = "<group>";
+		};
+		EDA51E3E278D092400AE7128 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				EDA51E3F278D093500AE7128 /* LogoImageView.swift */,
+				ED3780EA278D0B5F00F8A348 /* EmailTextFieldView.swift */,
+				ED3780EC278D140F00F8A348 /* PasswordTextFieldView.swift */,
+				ED3780EE278D157E00F8A348 /* UsernameTextFieldView.swift */,
+				ED3780F0278D189F00F8A348 /* ForgotPasswordLink.swift */,
+				ED3780F2278D198600F8A348 /* LoginButtonView.swift */,
+				ED3780F4278D1B0100F8A348 /* SignUpButtonView.swift */,
+			);
+			path = Subviews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +190,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDA51E2E278D07BB00AE7128 /* ContentView.swift in Sources */,
+				ED3780F3278D198600F8A348 /* LoginButtonView.swift in Sources */,
+				EDA51E40278D093500AE7128 /* LogoImageView.swift in Sources */,
+				EDA51E3C278D07F000AE7128 /* LoginView.swift in Sources */,
+				ED3780EF278D157E00F8A348 /* UsernameTextFieldView.swift in Sources */,
+				ED3780ED278D140F00F8A348 /* PasswordTextFieldView.swift in Sources */,
+				ED3780F5278D1B0100F8A348 /* SignUpButtonView.swift in Sources */,
+				ED3780F1278D189F00F8A348 /* ForgotPasswordLink.swift in Sources */,
 				EDA51E2C278D07BB00AE7128 /* EdvoraUIApp.swift in Sources */,
+				ED3780EB278D0B5F00F8A348 /* EmailTextFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
