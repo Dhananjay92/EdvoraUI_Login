@@ -1,7 +1,7 @@
 # <h2> About </h2> 
 
 <p align = "middle"> 
-
+This is the UI for the login page for Eudora made in SwiftUI. 
 </p> 
 
 
@@ -17,8 +17,8 @@
 
 <p> 
 
-Profile : https://github.com/noman-ahmad 
-Resume : https://drive.google.com/file/d/1tC46bq0zgjf_gAyG026cFSRqQgg4PUZt/view?usp=sharing 
+Profile : https://github.com/noman-ahmad \
+Resume : https://drive.google.com/file/d/1tC46bq0zgjf_gAyG026cFSRqQgg4PUZt/view?usp=sharing \
 Linkedin: https://linkedin.com/in/noman-ahmad199916
 
 
