@@ -1,7 +1,7 @@
 # <h2> About </h2> 
 
 <p align = "middle"> 
-This is the UI for the login page for Eudora made in SwiftUI. 
+This is the UI for the login page for Edvora made in SwiftUI. 
 </p> 
 
 
