@@ -13,6 +13,7 @@
 		ED3780F1278D189F00F8A348 /* ForgotPasswordLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3780F0278D189F00F8A348 /* ForgotPasswordLink.swift */; };
 		ED3780F3278D198600F8A348 /* LoginButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3780F2278D198600F8A348 /* LoginButtonView.swift */; };
 		ED3780F5278D1B0100F8A348 /* SignUpButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3780F4278D1B0100F8A348 /* SignUpButtonView.swift */; };
+		ED3780F8278D30C800F8A348 /* sc1.png in Resources */ = {isa = PBXBuildFile; fileRef = ED3780F7278D30C800F8A348 /* sc1.png */; };
 		EDA51E2C278D07BB00AE7128 /* EdvoraUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA51E2B278D07BB00AE7128 /* EdvoraUIApp.swift */; };
 		EDA51E30278D07BC00AE7128 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA51E2F278D07BC00AE7128 /* Assets.xcassets */; };
 		EDA51E33278D07BC00AE7128 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA51E32278D07BC00AE7128 /* Preview Assets.xcassets */; };
@@ -27,6 +28,8 @@
 		ED3780F0278D189F00F8A348 /* ForgotPasswordLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordLink.swift; sourceTree = "<group>"; };
 		ED3780F2278D198600F8A348 /* LoginButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonView.swift; sourceTree = "<group>"; };
 		ED3780F4278D1B0100F8A348 /* SignUpButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpButtonView.swift; sourceTree = "<group>"; };
+		ED3780F7278D30C800F8A348 /* sc1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sc1.png; sourceTree = "<group>"; };
+		ED3780F9278D312400F8A348 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EDA51E28278D07BB00AE7128 /* EdvoraUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EdvoraUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA51E2B278D07BB00AE7128 /* EdvoraUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdvoraUIApp.swift; sourceTree = "<group>"; };
 		EDA51E2F278D07BC00AE7128 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,9 +49,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED3780F6278D302800F8A348 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				ED3780F7278D30C800F8A348 /* sc1.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		EDA51E1F278D07BB00AE7128 = {
 			isa = PBXGroup;
 			children = (
+				ED3780F9278D312400F8A348 /* README.md */,
 				EDA51E2A278D07BB00AE7128 /* EdvoraUI */,
 				EDA51E29278D07BB00AE7128 /* Products */,
 			);
@@ -65,6 +77,7 @@
 		EDA51E2A278D07BB00AE7128 /* EdvoraUI */ = {
 			isa = PBXGroup;
 			children = (
+				ED3780F6278D302800F8A348 /* Screenshots */,
 				EDA51E3A278D07CF00AE7128 /* System */,
 				EDA51E39278D07C500AE7128 /* Views */,
 				EDA51E2F278D07BC00AE7128 /* Assets.xcassets */,
@@ -179,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDA51E33278D07BC00AE7128 /* Preview Assets.xcassets in Resources */,
+				ED3780F8278D30C800F8A348 /* sc1.png in Resources */,
 				EDA51E30278D07BC00AE7128 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
